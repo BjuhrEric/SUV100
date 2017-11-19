@@ -10,6 +10,7 @@ public class BallBehaviorComponent : MonoBehaviour
     public Text count;
     public Text restart;
     public Text time;
+    public Text quit;
     public ImpactListener impactListener;
     public System.DateTime startTime;
 
@@ -28,7 +29,7 @@ public class BallBehaviorComponent : MonoBehaviour
     {
         startTime = System.DateTime.Now;
         points = 0;
-        impactListener = GameObject.Find("GameLogic").GetComponent<GameStateBehavior>(); // This should preferrably be assigned from elsewhere
+        impactListener = GameObject.Find("GameLogic").GetComponent<GameStateBehavior>(); // TODO: This should preferrably be assigned from elsewhere
     }
 
     // Update is called once per frame
@@ -37,13 +38,14 @@ public class BallBehaviorComponent : MonoBehaviour
         System.DateTime curTime = System.DateTime.Now;
         count.text = "Count: " + points;
         if (!GameStateBehavior.restart)
-            time.text = (curTime - startTime) + "";
+            time.text = (curTime - startTime) + "";  // TODO: Text assignment should not really be managed in this class.
 
         if (points == CubeSpawner.NUMBER_OF_CUBES)
         {
             // Game over
             points = 0;
             restart.text = "Press \"R\" to Restart";
+            quit.text = "Press \"Q\" to Quit";
             gameObject.SetActive(false);
             GameStateBehavior.restart = true;
         }

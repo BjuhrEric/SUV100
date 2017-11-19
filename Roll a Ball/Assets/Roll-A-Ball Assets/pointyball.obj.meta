@@ -7,17 +7,27 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: sphere1_default
+    100004: sphere2_default
     400000: //RootNode
     400002: sphere1_default
+    400004: sphere2_default
     2300000: sphere1_default
+    2300002: sphere2_default
     3300000: sphere1_default
+    3300002: sphere2_default
     4300000: sphere1_default
+    4300002: sphere2_default
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sphere1_defaultMat
     second: {fileID: 2100000, guid: bdeb98e0a29706c4d97cdfb71df2866a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sphere2_defaultMat
+    second: {fileID: 2100000, guid: 43e02c48916e4fd44a01aaa143fd26ee, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
