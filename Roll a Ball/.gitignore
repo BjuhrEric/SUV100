@@ -32,3 +32,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+UnityPlayer.dll
+
+# Project specific build files
+RollABall.exe
+/RollABall_Data/
