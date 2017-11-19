@@ -45,7 +45,7 @@ public class BallBehaviorComponent : MonoBehaviour
             // Game over
             points = 0;
             restart.text = "Press \"R\" to Restart";
-            quit.text = "Press \"Q\" to Quit";
+            quit.text = "Press \"Escape\" to Quit";
             gameObject.SetActive(false);
             GameStateBehavior.restart = true;
         }
