@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: fb31b3c9e744c8841b05fc3f6a04dc66
+timeCreated: 1513453589
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BHole
+    100002: Detail
+    100004: Exhaust
+    100006: Flenses
+    100008: FrontPlates
+    100010: LandingPads
+    100012: Lists
+    100014: MoreNakedSkin
+    100016: NakedSkin
+    100018: //RootNode
+    100020: RoundThing
+    100022: Tank
+    100024: Tubes
+    100026: Tummy
+    100028: UpperChassis
+    100030: WindowFrame
+    100032: WindShield
+    100034: WingCovers
+    100036: WingLights
+    100038: WingOpenings
+    100040: WingPads
+    100042: WingStuff
+    100044: WingThings
+    400000: BHole
+    400002: Detail
+    400004: Exhaust
+    400006: Flenses
+    400008: FrontPlates
+    400010: LandingPads
+    400012: Lists
+    400014: MoreNakedSkin
+    400016: NakedSkin
+    400018: //RootNode
+    400020: RoundThing
+    400022: Tank
+    400024: Tubes
+    400026: Tummy
+    400028: UpperChassis
+    400030: WindowFrame
+    400032: WindShield
+    400034: WingCovers
+    400036: WingLights
+    400038: WingOpenings
+    400040: WingPads
+    400042: WingStuff
+    400044: WingThings
+    2300000: BHole
+    2300002: Detail
+    2300004: Exhaust
+    2300006: Flenses
+    2300008: FrontPlates
+    2300010: LandingPads
+    2300012: Lists
+    2300014: MoreNakedSkin
+    2300016: NakedSkin
+    2300018: RoundThing
+    2300020: Tank
+    2300022: Tubes
+    2300024: Tummy
+    2300026: UpperChassis
+    2300028: WindowFrame
+    2300030: WindShield
+    2300032: WingCovers
+    2300034: WingLights
+    2300036: WingOpenings
+    2300038: WingPads
+    2300040: WingStuff
+    2300042: WingThings
+    3300000: BHole
+    3300002: Detail
+    3300004: Exhaust
+    3300006: Flenses
+    3300008: FrontPlates
+    3300010: LandingPads
+    3300012: Lists
+    3300014: MoreNakedSkin
+    3300016: NakedSkin
+    3300018: RoundThing
+    3300020: Tank
+    3300022: Tubes
+    3300024: Tummy
+    3300026: UpperChassis
+    3300028: WindowFrame
+    3300030: WindShield
+    3300032: WingCovers
+    3300034: WingLights
+    3300036: WingOpenings
+    3300038: WingPads
+    3300040: WingStuff
+    3300042: WingThings
+    4300000: BHole
+    4300002: Detail
+    4300004: Exhaust
+    4300006: Flenses
+    4300008: FrontPlates
+    4300010: LandingPads
+    4300012: Lists
+    4300014: MoreNakedSkin
+    4300016: NakedSkin
+    4300018: RoundThing
+    4300020: Tank
+    4300022: Tubes
+    4300024: Tummy
+    4300026: UpperChassis
+    4300028: WindowFrame
+    4300030: WindShield
+    4300032: WingCovers
+    4300034: WingLights
+    4300036: WingOpenings
+    4300038: WingPads
+    4300040: WingStuff
+    4300042: WingThings
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BHoleMat
+    second: {fileID: 2100000, guid: 0c50673e9feeeee42af202232199bb11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DetailMat
+    second: {fileID: 2100000, guid: 035ac7cd0ad4f204fb423179d03bb0a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExhaustMat
+    second: {fileID: 2100000, guid: 48c31250290aff04f97d7b6b9fbb4a5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlensesMat
+    second: {fileID: 2100000, guid: ed2cfc9cf863fc349966c746710e8d64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontPlatesMat
+    second: {fileID: 2100000, guid: cb7b409259de4cd46acae4a1fe743312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LandingPadsMat
+    second: {fileID: 2100000, guid: 884639ac5ea04b84e9dc084c7df23364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ListsMat
+    second: {fileID: 2100000, guid: 74ab824e4c300da499cc1f4f1c8e400e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MoreNakedSkinMat
+    second: {fileID: 2100000, guid: 48ba9e9ba1e61054e986ca2f63ec4ba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NakedSkinMat
+    second: {fileID: 2100000, guid: 9f7bb567d301b45438a1751dece90e2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoundThingMat
+    second: {fileID: 2100000, guid: 2d0d11424fda23b4e91d67c57cfe6b12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TankMat
+    second: {fileID: 2100000, guid: bccb84282761cc04fbf2d060f118adc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TubesMat
+    second: {fileID: 2100000, guid: 73ffe122cc479064e8699cda58c65ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TummyMat
+    second: {fileID: 2100000, guid: 943e0142f15387e47b33700d8dc75f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpperChassisMat
+    second: {fileID: 2100000, guid: c5635e5fdcf2b874a9611b63181390db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindShieldMat
+    second: {fileID: 2100000, guid: 8ac26d8c07c8ebe4fa485d391e5e9f2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowFrameMat
+    second: {fileID: 2100000, guid: f93197f1bd9b1804c810c436da2fcfe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WingCoversMat
+    second: {fileID: 2100000, guid: 0c43a11711929164684bf6f2a3a4ab9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WingLightsMat
+    second: {fileID: 2100000, guid: bd078aae56f6bd4489deb10e8e8b72ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WingOpeningsMat
+    second: {fileID: 2100000, guid: a4188754ea31fac4ea44307516aa4b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WingPadsMat
+    second: {fileID: 2100000, guid: 5752bd201f9aad54f956b99edd009466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WingStuffMat
+    second: {fileID: 2100000, guid: e59614f0f8980d94c92d7cd475b34715, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WingThingsMat
+    second: {fileID: 2100000, guid: 42f2a31b9cf4e0641bc14ab2f02a9c3c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
