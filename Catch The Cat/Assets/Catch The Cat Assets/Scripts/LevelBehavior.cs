@@ -14,6 +14,7 @@ public class LevelBehavior : MonoBehaviour, IGroundHitListener, IFallingObjectCa
     [SerializeField] private Platformer2DUserControl userInput; 
     [SerializeField] private Text points;
     [SerializeField] private Text gameover;
+    [SerializeField] private Text pressButton;
     [SerializeField] private AudioSource fxSource;
     [SerializeField] private AudioSource bgmSource;
     [SerializeField] private AudioClip splatSound;
@@ -50,6 +51,7 @@ public class LevelBehavior : MonoBehaviour, IGroundHitListener, IFallingObjectCa
         fallSpeed = 1;
         points.text = "Points: 0";
         gameover.text = "";
+        pressButton.text = "";
         bgmSource.Stop(); // If it was already playing.
         bgmSource.Play();
 
@@ -101,7 +103,7 @@ public class LevelBehavior : MonoBehaviour, IGroundHitListener, IFallingObjectCa
 
         ggwp = true;
         gameover.text = "Game Over";
-        Invoke("allowQuit", 0.5f);
+        Invoke("allowQuit", 1f);
 
         if (userInput != null)
             userInput.ggwp = true;
@@ -110,6 +112,7 @@ public class LevelBehavior : MonoBehaviour, IGroundHitListener, IFallingObjectCa
     private void allowQuit()
     {
         canQuit = true;
+        pressButton.text = "Press Any Button To Quit\nPress R To Restart";
     }
 
     public void Update()
